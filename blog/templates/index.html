@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CRAZY PLACE</title>
+      <style>
+          .bor{
+              display: inline-block;
+              border-bottom: 6px solid blue;
+              background-color: lightgrey;
+}
+      </style>
+  </head>
+  <body>
+   {% load static%}
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'shop/back.jpeg' %}" class="d-block w-100" alt="..." height="900px">
+      <div class="carousel-caption d-none d-md-block" style="color: black">
+        <h1 style="font-size: 200px">Crazy Place</h1>
+        <h1>Crazy Place is a blogging website, mostly covering technical blogs.</h1><br>
+          <a href="/shop"><h1 style="border-left: 20px solid blue;border-right: 20px solid blue;color: black; background: lightsteelblue">Go To Blog</h1></a>
+      </div>
+    </div>
+</div>
+<!--blog content-->
+
+        <br> <h1 class="bor">Blog-Content</h1>
+
+        <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">World</strong>
+                        <h3 class="mb-0">Technology</h3>
+                        <p class="card-text mb-auto">You will get to learn soo much about technology in our blogging website. Here our Main category is Technology</p>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="{% static 'shop/t.jpg' %}" class="bd-placeholder-img" width="200" height="250" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Design</strong>
+                        <h3 class="mb-0">Development</h3>
+                        <p class="card-text mb-auto">You will get to learn soo much about development in our blogging website, like software development, web development.</p>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="{% static 'shop/d.jpg' %}" class="bd-placeholder-img" width="200" height="250" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-danger">Fiction</strong>
+                        <h3 class="mb-0">Science</h3>
+                        <p class="card-text mb-auto">You will get to learn soo much about scientific research in our blogging website. Also get to know different scientist's researches.</p>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="{% static 'shop/s.jpg' %}" class="bd-placeholder-img" width="200" height="250" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-warning">Learn</strong>
+                        <h3 class="mb-0">Education</h3>
+                        <p class="card-text mb-auto">You will get to learn soo much about education in our blogging website. Here we cover a lot about education.</p>
+
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="{% static 'shop/e.jpg' %}" class="bd-placeholder-img" width="200" height="250" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--team-->
+        <h1 class="bor">TEAM</h1>
+        <hr>
+         <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">ABDUL REHMAN </h2>
+                <p class="lead">Abdul Rehman is a developer of Crazy Place.He Developed this blogging website for learning purposes. He is a professional web developer(Python Guy).</p>
+            </div>
+            <div class="col-md-5 col-md-1">
+                <img class="img-fluid" src="{% static 'shop/pic.jpg' %}" height="120px" width="250px">
+                    </div>
+            </div>
+        <hr>
+        <br>
+<!--about-->
+        <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">CRAZY PLACE</h1>
+        <p><b>CRAZY PLACE</b> is a blogging website. Here you will see many informative blogs. Mainly we have four categorized our blogs in four different types. These are Development, Science, Education and technology. We are covering a lot of things in our blogs. All these blogs are helpful for you in study purposes. You will get to learn soo much about technology in our blogging website. Here our Main category is Technology. You will get to learn soo much about development in our blogging website, like software development, web development. You will get to learn soo much about scientific research in our blogging website. Also get to know different scientist's researches. You will get to learn soo much about education in our blogging website. Here we cover a lot about education.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-6 my-5">
+        <h2>Abdul Rehman</h2>
+        <p>Abdul Rehman is a developer of Crazy Place.He Developed this blogging website for learning purposes. He is a professional web developer(Python Guy).</p>
+      </div>
+      <div class="col-md-6 my-5">
+        <h2>Organization</h2>
+        <p><b>CRAZY PLACE</b> is a blogging website. Here you will see many informative blogs. Mainly we have four categorized our blogs in four different types. These are Development, Science, Education and technology. We are covering a lot of things in our blogs. All these blogs are helpful for you in study purposes. You will get to learn soo much about development in our blogging website, like software development, web development.</p>
+      </div>
+      <div class="col-md-4">
+    </div>
+    <hr>
+  </div> <!-- /container -->
+     </main>
+   </div>
+
+     <footer>
+       <div class="container col" style="background-color: black; text-align: center">
+         <div class="row">
+           <div class="col" style="color: lightsteelblue">
+             <h2>ABOUT CRAZY PLACE</h2>
+             <p><b>CRAZY PLACE</b> is a blogging website. Here you will see many informative blogs. Mainly we have four categorized our blogs in four different types. These are Development, Science, Education and technology. We are covering a lot of things in our blogs. All these blogs are helpful for you in study purposes.You will get to learn soo much about development in our blogging website, like software development, web development.</p>
+           </div>
+           <div class="col" style="color: lightsteelblue; text-align: center">
+             <h2>CONTACT</h2>
+		<i class="material-icons"  style="font-size:26px">home</i> Gujranwala,Pakistan <br>
+		<i class="material-icons"  style="font-size:26px">phone</i> 03337440237 <br>
+		<i class="material-icons"  style="font-size:26px">mail</i> abdulrehman7440237@gmail.com <br>
+		<i class="fa fa-instagram" style="font-size:24px"></i> Vilen
+           </div>
+         </div>
+       </div>
+     </footer>
+</body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
